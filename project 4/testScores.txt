@@ -1,0 +1,8 @@
+3
+5
+GolferName1
+76 80 79 81 140
+GolferName2
+0 0 0 75 150
+GolferName3
+71 70 69 71 64
