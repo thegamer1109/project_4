@@ -5,10 +5,10 @@ using namespace std;
 
 bool openInputFile(ifstream& inFile);
 bool openOutputFile(ofstream& outFile);
-//ifstream processInputData();
+ifstream processInputData();
 //ofstream writeHeader();
 //ofstream writeGolferInfo();
-//int isValidScore();
+bool isValidScore(int score);
 //int setMaxScore();
 
 int main()
@@ -38,7 +38,8 @@ int main()
     {
         cout << "Out file opened.\n";
     }
-
+    
+    
     return 0;
 }
 
@@ -71,30 +72,36 @@ bool openOutputFile(ofstream& outFile)
     }
     return true;
 }
-//{
-//
-//}
-//
-//ifstream processInputData()
-//{
-//
-//}
-//
-//ofstream writeHeader()
-//{
-//
-//}
-//
+
+processInputData(ifstream& )
+{
+    
+}
+
+outputForm()
+{
+    
+}
+
+writeHeader(ifstream& inFile, ofstream& outFile, int golferNumber, int scoresProcessed)
+{
+    cout << "*********************\n" << "** GOLFER REPORT **\n" 
+    << "*********************\n" << "Number of golfers processed: " 
+    << golferNumber << endl << "Number of scores processed: " 
+    << scoresProcessed << endl;
+}
+
 //ofstream writeGolferInfo()
 //{
 //
 //}
 //
-//int isValidScore()
-//{
-//
-//}
-//
+bool isValidScore(int score)
+{
+    // between 50 and 130
+    
+}
+
 //int setMaxScore()
 //{
 //
