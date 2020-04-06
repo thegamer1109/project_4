@@ -1,0 +1,5 @@
+*********************
+**  GOLFER REPORT  **
+*********************
+Number of golfers processed: 3
+Number of scores processed: 5
