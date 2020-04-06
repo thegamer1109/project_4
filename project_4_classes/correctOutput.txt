@@ -1,0 +1,9 @@
+*********************
+**  Golfer Report  **
+*********************
+Number of golfers processed: 3
+Number of scores processed: 5
+========================================
+Player: GolferName1 Average Score: 78.33
+Player: GolferName2 Average Score: 87.75
+Player: GolferName3 Average Score: 68.50
